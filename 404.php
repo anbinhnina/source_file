@@ -1,5 +1,5 @@
 <?php  
-  @define ( "_lib" , './libraries/');
+  @define ( '_lib' , './libraries/');
   include_once _lib."config.php";
 ?>
 <!DOCTYPE html>
