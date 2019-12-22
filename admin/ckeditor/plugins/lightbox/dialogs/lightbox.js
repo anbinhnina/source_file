@@ -77,7 +77,7 @@
 							},
 							validate: function() {
                                 var a = this.getDialog();
-                                return !e ? (alert(c.invalidValue), !1) : !g.config.linkJavaScriptLinksAllowed && /javascript\:/.test(this.getValue()) ? (alert(c.invalidValue), !1) : this.getDialog().fakeObj ? !0 : CKEDITOR.dialog.validate.notEmpty(b.noUrl).apply(this);
+                                return !e ? (/*alert(c.invalidValue)*/"", !1) : !g.config.linkJavaScriptLinksAllowed && /javascript\:/.test(this.getValue()) ? (/*alert(c.invalidValue)*/"", !1) : this.getDialog().fakeObj ? !0 : CKEDITOR.dialog.validate.notEmpty(b.noUrl).apply(this);
                             },
 							setup: function(a) {
 								this.allowOnChange = !1;
