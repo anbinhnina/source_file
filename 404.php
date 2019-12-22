@@ -1,6 +1,6 @@
 <?php  
-  @define ( "_lib" , './libraries/');
-  include_once _lib."config.php";
+  @define ( "_LIB" , './libraries/');
+  include_once _LIB."config.php";
 ?>
 <!DOCTYPE html>
 <html xml:lang>
