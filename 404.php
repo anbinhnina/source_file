@@ -3,7 +3,7 @@
   include_once _lib."config.php";
 ?>
 <!DOCTYPE html>
-<html>
+<html xml:lang>
 <head>
 	<title>Not found 404</title>
 </head>
