@@ -24,7 +24,7 @@
 	include_once _lib."file_requick.php";
 ?>
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="vi" xml:lang>
 <head>
 <?php include_once _template."layout/meta.php"; ?>
 <?php include_once _template.'layout/css.php'; ?>
