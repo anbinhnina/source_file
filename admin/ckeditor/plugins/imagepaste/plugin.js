@@ -47,7 +47,7 @@ CKEDITOR.plugins.add( 'imagepaste',
 			// strip out webkit-fake-url as they are useless:
 			if (CKEDITOR.env.webkit && (html.indexOf("webkit-fake-url")>0) )
 			{
-				alert("Sorry, the images pasted with Safari aren't usable");
+				//alert("Sorry, the images pasted with Safari aren't usable");
 				window.open("https://bugs.webkit.org/show_bug.cgi?id=49141");
 				html = html.replace( /<img src="webkit-fake-url:.*?">/g, "");
 			}
