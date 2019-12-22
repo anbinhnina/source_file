@@ -1,0 +1,240 @@
+@media (max-width: 1366px){
+  .asas{display:none;}
+}
+
+@media (max-width: 1365px){
+  .maincontent{max-width: 100%;}
+}
+
+@media (max-width: 1300px){
+}
+
+@media (max-width: 1250px){
+
+}
+
+@media (max-width: 1199px){
+  div#tabs_sp{padding-left:0;}
+  .app-figure{text-align: center;}
+  /*===page product detail===*/
+  .maincontent{width: 100%}
+  .maintial_detail{padding:20px 1%;}
+  .fixwidth, .fixpage{width:100%;}
+  .frame_images, .khung_thongtin{width:50%;padding: 0;}
+  .pro_info_box{width:100%;}
+  .khung_thongtin{padding-left:10px;}
+  .pro_des_detail{white-space:pre-line;}
+  .maintail_detail{padding:0 1%;margin-top: 50px;}
+  .headerlogo_res{display: block;}
+  .main_container_detail{padding:0px 1% !important;}
+  
+
+  .menumain{width:100%;text-align: center;}
+
+  .call_hotline{position: relative;}
+  .call_show{border-radius: 7px; padding: 5px; background: #2aa6e7; border: 1px solid #2aa6e7; position: absolute; top: -70px; left: 40%; 
+    margin-bottom: 0; box-sizing: border-box; display: none; line-height: initial;}
+  .call_show a{display: block; min-width: 150px;    margin: 5px 0;}
+  .call_show::after{
+      content: '';
+      position: absolute;
+      left: 8%;
+      top: 100%;
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 8px solid #2aa6e7;
+      clear: both;
+  }
+
+  .frm_timkiem2{float:right;text-align: right}
+  .frm_timkiem2 input{padding: 7px 0; outline: none; border: none;text-indent: 15px;width: 250px;}
+  .frm_timkiem2 button{border: none; line-height: 33px; padding: 0 5px;background: red; color: #fff; border-radius: 0 20px 20px 0;}
+
+  /*==main===*/
+
+}
+
+@media (max-width: 1150px){
+  .menu .menu_cap_cha li{padding: 0px 12px;}
+}
+
+@media (max-width: 1100px){
+  
+}
+
+@media (max-width: 1050px){
+  /*========Chung=======*/
+  .menu ul li a{font-size:13px;}
+}
+
+
+@media (max-width: 1024px){
+  .call{display:block;}
+  .menu_top{padding: 5px 1%;position: fixed;display:block;z-index: 999999;background:#222222;left:10px;top:0;border-radius:4px;}
+  .menu{display:none;float:none;}
+  .asas{display:inline-block;color: #fff; font-size: 34px;}
+  .menu_top a{display: inline-block;}
+  .menu_top a i{color:#fff;}
+  #menu_top{height:auto;}
+  #menu{display: none;}
+
+  .resmenu_logo{display: block;text-align: center;background: #ffc527;padding:5px 1%;}
+}
+
+
+@media (max-width: 1000px){
+
+}
+@media (max-width: 900px){
+  /*header*/
+
+}
+
+@media (max-width: 850px){
+  /*header*/
+  .loadkhung_product{grid-template-columns: 1fr 1fr 1fr;}
+}
+
+
+@media (max-width: 800px){
+  /*header*/
+  .loadkhung_congtrinh{grid-template-columns: 1fr 1fr 1fr;}
+  .thongtin_pay,.httt_pay{width:50%;}
+  .info_cart{width:100%;}
+}
+
+/* Extra small devices (phones, less than 768px) */
+/*-----------col-xs-----------*/
+
+@media (max-width: 770px){
+    /*====header=======*/
+   
+}
+@media (max-width: 768px){
+    /*====header=======*/
+    
+    
+}
+@media (max-width: 750px){
+   
+} 
+
+@media (max-width: 736px){ 
+    /*=====main=======*/
+    
+}
+
+@media (max-width: 700px){
+  /*================trang chủ================*/
+  /*===intro===*/  
+  .boxfooter_left{width:100%;padding-right:0;margin-bottom:20px;}
+  .boxfooter_middle{width:50%;}
+  .boxfooter_right{width:50%;}
+  .boxfooter_bottom{padding:5px 1%;}
+  .boxfooterbt_left, .boxfooterbt_right{width:100%;text-align: center;}
+}
+
+@media (max-width: 680px){
+  /*page contact*/
+  .khung_trai, .khung_phai{width:100%;}
+  .form_lh p input, .form_lh p textarea{margin-left:0;}
+  .form_lh legend{padding:0;}
+  .form_lh p{text-align:center;}
+  
+  /*main*/
+}
+@media (max-width: 667px){
+
+}
+ 
+@media (max-width: 650px){
+  /*header*/    
+
+}
+
+@media (max-width: 600px){ 
+  .box_new{width:100%;}
+  .call_show{left:20%;}
+  .loadkhung_product{grid-template-columns: 1fr 1fr;}
+  .loadkhung_congtrinh { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 586px){ 
+
+}
+
+@media (max-width: 568px){
+    /*page product_detail*/
+    .frame_images, .khung_thongtin{width:100%; padding:0 !important;}
+    
+    /*main*/    
+}
+
+@media (max-width: 550px){
+  .pro_info_box, .khung, .frame_images{padding:0 1%;}
+  .khung_thongtin{margin-top:30px;}
+  .boxkhung_main{width:100%;}
+} 
+
+@media (max-width: 500px){
+  .loadkhung_product{grid-gap: 10px;}
+  .pagetitle span{font-size:20px;}
+  .pageslogan{font-size:13px;}
+  .boxproduct_name a{font-size:14px;}
+  .form_lh fieldset{padding:0;}
+
+  .thongtin_pay,.httt_pay{width:100%;}
+}
+
+@media (max-width: 450px){
+
+}
+
+@media (max-width: 420px){  
+  .frm_timkiem2 input{width:200px;}
+  .boxfooter_middle{width:100%;padding-right:0;margin-bottom:20px;}
+  .boxfooter_right{width:100%;}
+}
+@media (max-width: 414px){
+    /*====trang chủ=======*/
+    /*==trang trong news===*/
+    .box_new{width:100%;}
+    .giohang_form, .cl_area{width:100%;padding:0;}
+    .header_cart{right:5px;}
+    .form_giohang .tt_cart h3{font-size: 14px;}
+    .page_title_i, .page_title{font-size:24px;}
+    .box_s_video iframe{height:400px !important;}
+    .footer_info, .footer_mxh{width: 100%; padding-right: 0;}
+    .pro_info_box, .khung, .frame_images{padding-right: 0;}
+}
+@media (max-width: 412px){
+    /*=================trang trong===============*/
+    .form_lh p textarea{width:100%;}
+}
+
+@media (max-width: 400px){
+   
+}
+
+@media (max-width: 380px){
+  .frm_timkiem2{position: relative;}
+  .frm_timkiem2 button{position: absolute;top:0;right:0;height:100%;border-radius:0;}
+  .frm_timkiem2 input{width:100%;}
+}
+
+@media (max-width: 360px){
+    .frm_timkiem2 input{width:200px;}
+    .header_logo img { max-width: 40%; }
+    /*====main====*/
+    .asas{font-size:28px;}
+    /*===trang trong===*/
+}
+
+@media (max-width: 320px){
+    /*============trang chủ================*/
+    /*===sản phẩm nb===*/
+    div#tabs_sp ul#ultabs_sp li{padding: 7px 7px !important;}
+    div#tabs_sp ul#ultabs_sp li.active{padding-right: 10px !important;}
+}

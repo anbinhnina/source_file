@@ -1,0 +1,39 @@
+.paging{text-align:center;}
+.paging .pagination2{display:inline-block;}
+ul.pagination2 {
+  text-align:center;
+  color:#4a4a4a;
+  font-family: 'Roboto-Regular';
+}
+ul.pagination2 li {
+  display:inline;
+  padding:0 2px;
+  float: left;
+}
+ul.pagination2 a,ul.pagination2 span {
+  display:inline-block;
+  height: 30px;
+  box-sizing: border-box;
+  text-decoration:none;
+  cursor: pointer;
+  background:#fff;
+  color:#4a4a4a;
+  text-align: center;line-height: 28px;
+  border:1px solid #e0e0e0;
+  padding:0px 10px;
+}
+ul.pagination2 a:hover,ul.pagination2 span:hover,ul.pagination2 li.actived a {
+  background:#4a4a4a;
+  color:#fff;
+  border:1px solid transparent;
+}
+ul.pagination2 li.page_info{line-height:25px;}
+ul.pagination2 .page_info{display:none;}
+
+.pagination3, .filterselect{font-size:12px;font-family: 'Roboto-Regular';line-height:25px;height: 25px;outline:none;border-radius: 4px; padding: 0 5px;}
+.pagination_p{float:left;height: 25px; width: 25px; border: 1px solid #999; text-align: center; margin-right: 5px; border-radius: 4px;cursor: pointer;}
+.pagination_nex{float:right;margin-left: 5px; margin-right: 0;}
+.boxprofilter_filter{float:right;margin-right: 15px;}
+.boxprofilter_filterbtn{font-size: 12px; font-family: 'Roboto-Regular'; line-height: 25px; height: 25px; outline: none; border-radius: 4px; padding: 0 5px;}
+
+.filterselect{float: left; margin-right: 5px;}

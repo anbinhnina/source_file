@@ -1,0 +1,15 @@
+.mm-menu > .mm-panel.mm-opened{
+	background:#222222 !important;
+	opacity:1;
+}
+.mm-list, .mm-list > li{
+	background:#222222 !important;
+	opacity:1;
+}
+.mm-list, .mm-list > li{
+	color:#fff;text-transform: uppercase;
+}
+.mm-menu.mm-current{
+	background:#222222;
+}
+.mm-list a.mm-subopen:after{border-color: rgba(255, 255, 255, 0.3) !important;}
